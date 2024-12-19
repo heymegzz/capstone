@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color:black;
@@ -20,8 +21,7 @@ body{
     width:1440px;
     height:auto;
     min-height:900px;
-    padding-right: 48px;
-    padding-left: 48px;
+    
 
 }
 nav{
@@ -33,6 +33,7 @@ nav{
     padding-top:20px;
     padding-bottom: 20px;
     border-bottom: 1.5px;
+    
   
 }
 nav ul{
@@ -49,12 +50,15 @@ nav ul li {
     font-size: 42px;
     line-height: 42px;
     font-weight: 600;
-    font-family: "Source Serif 4", serif;;
+    font-family: "Source Serif 4", serif;
+    padding-left: 1px;
 }
 .right{
     width: auto;
     height: auto;
-    gap: 32px;
+    gap: 40px;
+    padding-left: 650px;
+   
     
 }
 .right a{
@@ -64,18 +68,19 @@ nav ul li {
     font-family: "Plus Jakarta Sans", sans-serif; 
     color: white;
     text-decoration: none;
+   
 }
 
 .container1{
     display:grid;
     grid-template-columns: repeat(3,1fr );
-    padding: 48px 0px;
-    gap: 8px;
+    padding: 32px 0px;
+    
 }
 .container{
-    padding: 48px 0px;
+    padding: 52px 0px;
     max-width: 1344px;
-    height: auto;
+    height: 437px;
     margin: auto;
 }
 .sec1{
@@ -96,15 +101,16 @@ h1{
 }
 .sec1 .main-image img{
     
-    border: 1px solid white;
-    max-width: 1400px;
+    border: 1.5px solid #000000;
+    width: 1344px;
     height:672px;
-    margin: auto;
+    margin: ;
+
 }
 .item img{
     max-width: 416px;
     height: 277px;
-    border: 1px solid white;
+    border: 1.5px solid #000000;
 
 }
 .item .l1{
@@ -124,11 +130,11 @@ h1{
     opacity: 0.6;
  
 } 
-.container .item{
+.item{
     height: 333px;
     max-width:416px ;
     gap:16px;
-    margin: auto;
+    margin: 30px;
 }
 .row{
     padding: 48px 0px;
@@ -148,6 +154,7 @@ h1{
     font-weight: 400;
     font-size: 48px;
     line-height: 52px;
+    padding:96px 0
 }
 .btn{
     height: auto;
@@ -190,6 +197,10 @@ h1{
     width: 1344px;
     height: 698px;
     
+}
+.sec4 img{
+    width: 1537px;
+    height: 698px;
 }
 footer{
     width: 1344px;
